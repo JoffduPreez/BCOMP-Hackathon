@@ -1,7 +1,79 @@
+/* Global Styles */
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body {
-    background-color: bisque;
+    margin: 0;
+    background-color: black;
+    color: rgba(228, 228, 228, 0.967);
+}
+a {
+    text-decoration: none;
+    color: rgba(228, 228, 228, 0.967);
 }
 
+a:hover {
+    color: rgb(255, 60, 0);
+}
+
+img {
+    width: 250px;
+}
+
+/* Nav */
 header {
+    padding: 0;
+    margin: 0;
+    height: 60px;
+    background-color: rgb(0, 0, 0, 0.85);
+    display: block;
+    font-size: 20px;
+}
+ul {
+    float: left;
+}
+li {
+    list-style: none;
     display: inline;
+    padding:10px 20px;
+    border-radius: 10px;
+}
+
+header + section {
+    clear: both;
+}
+
+/* Home */
+
+
+/* About */
+
+/* Projects */
+.fill-width {
+    background-image: linear-gradient(to bottom, rgb(40, 40, 40), rgb(20, 20, 20), black, rgb(20, 20, 20), rgb(40, 40, 40));
+    padding: 30px 0;
+}
+
+.project {
+    color: rgba(228, 228, 228, 0.967);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 40px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.Project-Description {
+    max-width: 600px;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+/* Contact Me */
+footer {
+    background-color: rgb(40, 40, 40);
 }
