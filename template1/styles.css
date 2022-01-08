@@ -3,12 +3,10 @@
 html {
     box-sizing: border-box;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 *, *:before, *:after {
     box-sizing: inherit;
-}
-section {
-    margin: 0;
 }
 body {
     margin: 0;
@@ -24,17 +22,22 @@ a:hover {
     color: rgb(255, 60, 0);
 }
 
-img {
-    width: 250px;
-    height: 250px;
+.project > img {
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
 }
 
 /* Nav */
 header {
     height: 60px;
+    width: 100%;
     background-color: rgb(0, 0, 0, 0.85);
     display: block;
     font-size: 20px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.85);
 }
 ul {
     float: left;
@@ -50,16 +53,67 @@ header + section {
     clear: both;
 }
 
+.fill-width {
+    background-image: linear-gradient(to bottom, rgb(30, 30, 30), rgb(15, 15, 15), black, rgb(15, 15, 15), rgb(30, 30, 30));
+    padding: 50px 0;
+}
+
 /* Home */
+#Home {
+    margin: 150px auto 15% auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 100px;
+    width: 60%;
+}
+
+#Home > img {
+    width: 400px;
+    height: 400px;
+    border-radius: 175px;
+    padding-left: 50px;
+}
+
+.intro-text > h1 {
+    padding-top: 75px;
+    font-size: 35px;
+}
 
 
 /* About */
 
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30%;
+    row-gap: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.about-grid img {
+    width: 300px;
+    margin: auto;
+}
+
+.about-grid h1 {
+    text-align: center;
+}
+.about-grid {
+    text-align: justify;
+}
+
+.skills-list li {
+    text-align: left;
+    list-style-type: disc;
+    display: block;
+}
+
 /* Projects */
 
-.fill-width {
-    background-image: linear-gradient(to bottom, rgb(40, 40, 40), rgb(20, 20, 20), black, rgb(20, 20, 20), rgb(40, 40, 40));
-    padding: 30px 0;
+#Projects h1 {
+    font-size: 40px;
+    text-align: center;
 }
 
 .project {
@@ -79,7 +133,7 @@ header + section {
 
 /* Contact Me */
 footer {
-    background-color: rgb(40, 40, 40);
+    background-color: rgb(30, 30, 30);
 }
 
 .Contact-List {
