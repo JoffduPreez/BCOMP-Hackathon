@@ -79,12 +79,17 @@ header + section {
 
 /* Contact Me */
 footer {
-    width: 70%;
-    margin: 0 auto;
-    height: 100px;
     background-color: rgb(40, 40, 40);
 }
 
 .Contact-List {
-    text-align: center
+    padding-top: 100px;
+    height: 200px;
+    text-align: center;
+}
+
+.Contact-List a {
+    font-size: 20px;
+    padding: 15px 15px;
+    margin: 40px 20px;
 }
