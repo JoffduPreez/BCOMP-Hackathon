@@ -71,6 +71,10 @@ body {
   transition: transform 3s cubic-bezier(0.2, 1, 0.3, 1);
 }
 
+.templateImage {
+  transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
+}
+
 .templateContent {
   position: absolute;
   top: 0;
@@ -88,6 +92,10 @@ body {
 
 .template:hover:after {
   transform: scale(2) translateX(0) translateY(0) rotate(-28deg);
+}
+
+.template:hover .templateImage {
+  transform: scale(1.2);
 }
 
 .template:hover .templateContent {
@@ -110,19 +118,6 @@ body {
   height: auto;
   line-height: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .templateContent {
     display: flex;
