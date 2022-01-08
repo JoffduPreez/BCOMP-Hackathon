@@ -14,13 +14,13 @@ body {
 
 /* Header */
 #header {
-    color: white;
+    color: black;
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url('/images/background1.jpeg') no-repeat center center / cover;
+    background: url('/images/background2.jpeg') no-repeat center center / cover;
 }
 
 #header h1 {
@@ -41,12 +41,12 @@ body {
 #socialLinks a {
     text-decoration: none;
     padding: 0 20px;
-    color: white;
+    color: black;
 }
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 0 20px;
     font-size: 20px;
 }
@@ -76,14 +76,14 @@ nav a {
 /* About section */
 #about {
     width: 100vw;
-    background-color: #333;
+    background-color: #53acef;
     padding: 3vh 0;
     text-align: center;
     color: white;
 }
 
 /* Projects section */
-#projects {
+#workExperience {
     width: 80vw;
     display: flex;
     flex-direction: column;
@@ -91,34 +91,34 @@ nav a {
     padding: 3vh 0 5vh 0;
 }
 
-#projectContainer {
+#workExperienceContainer {
     display: flex;
     justify-content: center;
 }
 
-.projectBox {
+.workExperienceBox {
     padding: 2vh 2vw;
-    transition-property: background-color color;
+    transition-property: background-color;
     transition-duration: 0.75s;
     border-radius: 10px;
+    max-width: 33%;
 }
 
-.projectBox:hover {
-    background-color: #4b4b8b;
-    color: white;
+.workExperienceBox:hover {
+    background-color: #e7e7e7;
     border-radius: 10px;
 }
 
-.projectBox:hover .projectImage {
+.workExperienceBox:hover .workExperienceImage {
     border-radius: 10px;
 }
 
-.projectTitle {
+.workExperienceTitle {
     font-size: 20px;
     margin-bottom: 1vh;
 }
 
-.projectImage {
+.workExperienceImage {
     width: 100%;
     transition-property: border-radius;
     transition-duration: 0.75s;
@@ -127,7 +127,7 @@ nav a {
 /* Skills section */
 #skills {
     width: 100vw;
-    background-color: #333;
+    background-color: #53acef;
     padding: 3vh 0;
     text-align: center;
     color: white;
@@ -152,35 +152,35 @@ nav a {
 .completeSkill1 {
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
-    background: #4b4b8b;
+    background: #a4ff59;
     height: 100%;
-    width: 65%;
+    width: 60%;
 }
 .completeSkill2 {
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
-    background: #4b4b8b;
+    background: #a4ff59;
     height: 100%;
-    width: 35%;
+    width: 33%;
 }
 .completeSkill3 {
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
-    background: #4b4b8b;
+    background: #a4ff59;
     height: 100%;
-    width: 75%;
+    width: 70%;
 }
 .completeSkill4 {
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
-    background: #4b4b8b;
+    background: #a4ff59;
     height: 100%;
     width: 90%;
 }
 .completeSkill5 {
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
-    background: #4b4b8b;
+    background: #a4ff59;
     height: 100%;
-    width: 85%;
+    width: 80%;
 }
