@@ -14,28 +14,35 @@
 <body>
     <!-- Nav Bar -->
     <header>
-        <h1 class="Name-Text">John <br>  Smith</h1>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
+        <div class="top-header">
+            <a class="Name-Text" href="">Mark<br>Schmid</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Projects">Projects</a></li>
+            </ul>
+        </div>
+
+        <div class="Contact-List">
+            <a href="#"><img src="images\linkedin-logo.png"></a>
+            <a href="#"><img src="images\email-logo.png"></a>
+            <a href="#"><img src="images\git-logo.jpg"></a>
+        </div>
     </header>
 
     <!-- Home -->
     <section id="Home">
-        <img src="images/smilingGuy3.jpg" alt="profile image">
+        <img src="images\headshotphoto.jpg" alt="profile image">
         <div class="intro-text">
-            <h1 class="Name-Text">John Smith</h1>
-            <h2>First Year Computer Science Student</h2>
+            <h1 class="Name-Text">Mark Schmid</h1>
+            <h2>First Year <br>Student</h2>
         </div>
     </section>
 
     <!-- About -->
-    <section id="About" class="fill-width">
+    <section id="About">
         <div class="about-grid">
-            <div>
+            <div class="About-Text">
                 <h1>About Me</h1>
                 <p>Pac-Man is an action maze chase video game; the player controls
                 the eponymous character through an enclosed maze. The objective
@@ -45,15 +52,14 @@
                 action maze chase video game; the player controls
                 the eponymous character through an enclosed maze. The objective
                 of the game is to eat all of the dots placed in the maze while
-                avoiding four colored ghosts — Blinky (red), Pinky (pink), 
-                Inky (cyan), and Clyde (orange) — that pursue him.</p>
+                avoiding four colored ghosts — Blinky (red).</p>
             </div>
             
-            <img src="images\smilingGuy3.jpg" alt="profile image">
-    
-            <div>
-                <h1>Education</h1>
-                <h4>Bachelor of Computing <br> University of Guelph</h4>
+            <div class="About-Text">
+                <div class="education-title">
+                    <h1>Education</h1>
+                    <h4>Bachelor of Computing <br> University of Guelph</h4>
+                </div>
                 <p>I'm currently enrolled at the University of guelph in computer science.
                 Pac-Man is an action maze chase video game; the player controls
                 the eponymous character through an enclosed maze. The objective
@@ -64,7 +70,7 @@
                 </p>
             </div>
 
-            <div>
+            <div class="About-Text">
                 <h1>Skills</h1>
 
                 <ul class="skills-list">
@@ -138,11 +144,7 @@
 
     <!-- Contact Me -->
     <footer id="Contact">
-            <div class="Contact-List">
-                <a href="#">Linkedin</a>
-                <a href="#">Email</a>
-                <a href="#">Github</a>
-            </div>
+            
     </footer>
 </body>
 </html>

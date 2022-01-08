@@ -1,20 +1,28 @@
+/* figure out how to make the img links relative to the page and stay at the bottom they are not currently working
+    also fix the text and make it stick beside the image
+*/
+
 /* Global Styles */
 html {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("images/background-white.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 *, *:before, *:after {
     box-sizing: inherit;
 }
 body {
     margin: 0 0 0 200px;
+    color: rgb(50, 50, 50);
 }
 a {
     text-decoration: none;
     color: rgb(50, 50, 50);
 }
 a:hover {
-    color: rgb(38, 38, 197);
+    color: rgb(255, 126, 0);
 }
 
 /* Nav Bar */
@@ -26,21 +34,130 @@ header {
     left: 0;
     border-right: 2px solid rgb(50, 50, 50);
     font-size: 20px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, white, white, white, white, white, rgb(255, 255, 255), black);
 }
-header h1 {
+.top-header > a {
+    text-align: left;
     margin-left: 20px;
+    font-size: 32px;
 }
 ul {
     margin-top: 50px;
-    margin-left: -10px;
+    margin-left: -40px;
 }
-li {
+header li {
     list-style: none;
     padding: 10px 20px;
     margin: 20px 0;
 }
+.Contact-List {
+    margin-top: 15vw;
+}
+a img {
+    bottom: 0;
+    margin-left: 15px;
+    width: 40px;
+    display: block;
+    padding: 5px;
+}
+a img:hover {
+    border: 1px solid rgb(255, 126, 0);
+}
 
 /* Home */
+#Home {
+    margin: 10% auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
 #Home img {
-    float: left;
+    width: 120%;
+    border-radius: 30px;
+    border: 4px solid rgb(255, 126, 0);
+}
+.intro-text {
+    margin-top: 55%;
+    margin-left: 20px;
+    text-align: center;
+}
+.intro-text h1 {
+    font-size: 30px;
+}
+
+/* About */
+#About {
+    margin: 100px auto;
+}
+.About-Text {
+    max-width: 300px;
+    border: 5px solid black;
+    border-radius: 20px;
+    min-height: 500px;
+    box-shadow: 4px 8px rgb(255, 126, 0);
+    background-color: white;
+}
+.About-Text > * {
+    margin: 9% 20px;
+}
+.education-title, .About-Text h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.skills-list li {
+    margin-left: -10px;
+}
+
+/* Project */
+#Projects {
+    width: 70%;
+    margin: 100px auto;
+}
+#Projects > h1 {
+    text-align: center;
+    font-size: 40px;
+}
+.project {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 40px;
+    margin: 10px 10px;
+}
+.project img {
+    width: 250px;
+    height: 250px;
+}
+.fill-width {
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 10px;
+    margin: 50px 0;
+    min-height: 280px;
+    box-shadow: 4px 8px rgb(255, 126, 0);
+    
+}
+.Project-Description {
+    overflow: hidden;
+}
+
+@media screen and (min-width: 1050px) {
+    .about-grid {
+        width: 90%;
+        margin: 0 auto;
+        min-height: 500px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 6%;
+    }
+}
+@media screen and (max-width: 1049px) {
+    .about-grid {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .About-Text {
+        margin-top: 100px;
+    }
 }
