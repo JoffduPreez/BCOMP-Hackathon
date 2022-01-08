@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#templatesContainer {
+    width: 75vw;
+    height: 75vh;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+#containerHeader {
+    text-align: center;
+    margin-bottom: 5vh;
+    width: 100%;
+}
+
+#containerHeader h1 {
+    margin-bottom: 1vh;
+}
+
+#containerHeader div {
+    background-color: #ffbc00;
+    width: 5vw;
+    height: 3px;
+    margin: auto;
+    margin-bottom: 1vh;
+}
+
+#headerText {
+    margin: auto;
+    width: 50%;
+    line-height: 20px;
+}
