@@ -119,11 +119,7 @@ body {
   line-height: 0;
 }
 
-
-#img1 {
-  transform: scale(2);
-}
-#img2 {
+.imgScale {
   transform: scale(2);
 }
 
