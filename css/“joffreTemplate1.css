@@ -1,0 +1,186 @@
+/* Container and main styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.6;
+    background: white;
+}
+
+/* Header */
+#header {
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('/images/background1.jpeg') no-repeat center center / cover;
+}
+
+#header h1 {
+    font-size: 80px;
+}
+
+#header p {
+    font-size: 25px;
+}
+
+#socialLinks {
+    margin: 12px 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#socialLinks a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+/* Main content */
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionContainer {
+    width: 65vw;
+    margin: auto;
+}
+
+.title {
+    margin-bottom: 1vh;
+    font-size: 30px;
+}
+
+.basicText {
+    font-size: 18px;
+}
+
+/* About section */
+#about {
+    width: 100vw;
+    background-color: #333;
+    padding: 3vh 0;
+    text-align: center;
+    color: white;
+}
+
+/* Projects section */
+#projects {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vh 0 5vh 0;
+}
+
+#projectContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.projectBox {
+    padding: 2vh 2vw;
+    transition-property: background-color color;
+    transition-duration: 0.75s;
+    border-radius: 10px;
+}
+
+.projectBox:hover {
+    background-color: #4b4b8b;
+    color: white;
+    border-radius: 10px;
+}
+
+.projectBox:hover .projectImage {
+    border-radius: 10px;
+}
+
+.projectTitle {
+    font-size: 20px;
+    margin-bottom: 1vh;
+}
+
+.projectImage {
+    width: 100%;
+    transition-property: border-radius;
+    transition-duration: 0.75s;
+}
+
+/* Skills section */
+#skills {
+    width: 100vw;
+    background-color: #333;
+    padding: 3vh 0;
+    text-align: center;
+    color: white;
+}
+
+#skills .sectionContainer {
+    width: 50vw;
+}
+
+.skillBox {
+    margin: 2vh 0;
+    text-align: left;
+}
+
+.skillBar {
+    height: 2.5vh;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+}
+
+.completeSkill1 {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background: #4b4b8b;
+    height: 100%;
+    width: 65%;
+}
+.completeSkill2 {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background: #4b4b8b;
+    height: 100%;
+    width: 35%;
+}
+.completeSkill3 {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background: #4b4b8b;
+    height: 100%;
+    width: 75%;
+}
+.completeSkill4 {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background: #4b4b8b;
+    height: 100%;
+    width: 90%;
+}
+.completeSkill5 {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background: #4b4b8b;
+    height: 100%;
+    width: 85%;
+}

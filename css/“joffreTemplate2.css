@@ -1,0 +1,186 @@
+/* Container and main styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.6;
+    background: white;
+}
+
+/* Header */
+#header {
+    color: black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('/images/background2.jpeg') no-repeat center center / cover;
+}
+
+#header h1 {
+    font-size: 80px;
+}
+
+#header p {
+    font-size: 25px;
+}
+
+#socialLinks {
+    margin: 12px 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#socialLinks a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+/* Main content */
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionContainer {
+    width: 65vw;
+    margin: auto;
+}
+
+.title {
+    margin-bottom: 1vh;
+    font-size: 30px;
+}
+
+.basicText {
+    font-size: 18px;
+}
+
+/* About section */
+#about {
+    width: 100vw;
+    background-color: #53acef;
+    padding: 3vh 0;
+    text-align: center;
+    color: white;
+}
+
+/* Projects section */
+#workExperience {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vh 0 5vh 0;
+}
+
+#workExperienceContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.workExperienceBox {
+    padding: 2vh 2vw;
+    transition-property: background-color;
+    transition-duration: 0.75s;
+    border-radius: 10px;
+    max-width: 33%;
+}
+
+.workExperienceBox:hover {
+    background-color: #e7e7e7;
+    border-radius: 10px;
+}
+
+.workExperienceBox:hover .workExperienceImage {
+    border-radius: 10px;
+}
+
+.workExperienceTitle {
+    font-size: 20px;
+    margin-bottom: 1vh;
+}
+
+.workExperienceImage {
+    width: 100%;
+    transition-property: border-radius;
+    transition-duration: 0.75s;
+}
+
+/* Skills section */
+#skills {
+    width: 100vw;
+    background-color: #53acef;
+    padding: 3vh 0;
+    text-align: center;
+    color: white;
+}
+
+#skills .sectionContainer {
+    width: 50vw;
+}
+
+.skillBox {
+    margin: 2vh 0;
+    text-align: left;
+}
+
+.skillBar {
+    height: 2.5vh;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+}
+
+.completeSkill1 {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background: #5680E9;
+    height: 100%;
+    width: 60%;
+}
+.completeSkill2 {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background: #5680E9;
+    height: 100%;
+    width: 33%;
+}
+.completeSkill3 {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background: #5680E9;
+    height: 100%;
+    width: 70%;
+}
+.completeSkill4 {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background: #5680E9;
+    height: 100%;
+    width: 90%;
+}
+.completeSkill5 {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background: #5680E9;
+    height: 100%;
+    width: 80%;
+}
