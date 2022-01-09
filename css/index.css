@@ -119,6 +119,14 @@ body {
   line-height: 0;
 }
 
+
+#img1 {
+  transform: scale(2);
+}
+#img2 {
+  transform: scale(2);
+}
+
 .templateContent {
     display: flex;
     flex-direction: column;
