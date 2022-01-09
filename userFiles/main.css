@@ -9,9 +9,7 @@
   .hero {
     height: 100vh;
     width: 100%;
-    background-image: url(/images/background2.gif);
-    background-size: cover;
-    background-position: center;
+    background: #242332;
   }
   nav {
     display: flex;
@@ -24,14 +22,14 @@
   .logo {
     color: white;
     font-size: 35px;
-    font-family: "Press Start 2P", cursive;
+    font-family: "Lato", cursive;
     letter-spacing: 1px;
     cursor: pointer;
   }
   
   span {
-    color: brown;
-    font-family: "Press Start 2P", sans-serif;
+    color: #950740;
+    font-family: "Lato", sans-serif;
   }
   
   nav ul li {
@@ -47,7 +45,7 @@
   }
   
   nav ul li a:hover {
-    color: #5ab9ea;
+    color: #c3073f;
     transition: 0.4s;
   }
   
@@ -71,11 +69,11 @@
   }
   
   h1 {
-    font-family: "Press Start 2P", sans-serif;
-    color: #f4976c;
+    font-family: "Lato", sans-serif;
+    color: #c3073f;
     margin: 10px 0px 10px;
     font-size: 75px;
-    text-align: left;
+    text-align: right;
   }
   
   h3 {
@@ -84,8 +82,7 @@
     color: white;
     font-size: 25px;
     margin-bottom: 50px;
-    text-align: left;
-    margin-top: 3%;
+    text-align: right;
   }
   
   h4 {
@@ -94,8 +91,7 @@
     letter-spacing: 2px;
     font-weight: bold;
     font-size: 25px;
-    text-align: left;
-    margin-bottom: 3%;
+    text-align: right;
   }
   
   .right {
@@ -129,14 +125,14 @@
   }
   
   .AboutText h2 {
-    color: #f4976c;
+    color: #c3073f;
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
   }
   
   .AboutText h5 {
-    color: brown;
+    color: #950740;
     letter-spacing: 2px;
     font-size: 25px;
     margin-bottom: 25px;
@@ -152,7 +148,7 @@
   }
   
   .skills {
-    background: black;
+    background: #950740;
     width: 100%;
     height: 100vh;
     padding: 100px 0px;
@@ -190,11 +186,11 @@
     display: block;
     text-align: center;
     margin: 25px 0px;
-    color: brown;
+    color: #c3073f;
   }
   
   h5 {
-    color: #f4976c;
+    color: #950740;
     font-size: 23px;
     margin-bottom: 15px;
   }
@@ -207,7 +203,7 @@
   }
   
   .Title {
-    color: white;
+    color: #c3073f;
     font-size: 75px;
     width: 1130px;
     margin: 30px auto;
@@ -217,7 +213,7 @@
   }
   
   .projects {
-    background: #f4976c;
+    background: black;
     width: 100%;
     height: 100vh;
   }
@@ -228,7 +224,7 @@
   }
   
   .projects .card p {
-    color: brown;
+    color: #950740;
     margin-top: 15%;
     font-size: 18px;
   }
@@ -246,7 +242,7 @@
   
   .projects .card a:hover {
     font-size: 32px;
-    color: #f79e02;
+    color: #c3073f;
     transition: 0.4s;
   }
   
@@ -277,11 +273,7 @@
     right: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/adult_bad_beard_blue_background_cap_facial_expression_facial_hair_fashion-1537223.jpg!d)
-      no-repeat center;
-    background-size: cover;
-    z-index: -1;
-    filter: blur(50px);
+    background: #c3073f;
   }
   
   .contact-box {
@@ -297,9 +289,7 @@
   
   .left {
     height: 100%;
-    background: url(/images/adult_bad_beard_blue_background_cap_facial_expression_facial_hair_fashion-1537223.jpg!d)
-      no-repeat center;
-    background-size: cover;
+    background: #c3073f;
   }
   
   .right {

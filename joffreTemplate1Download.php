@@ -24,10 +24,10 @@ $skill2 = $_POST['skill2'];
 $skillLevel2 = $_POST['skillLevel2'];
 $skill3 = $_POST['skill3'];
 $skillLevel3 = $_POST['skillLevel3'];
-$skill4 = $_POST['skill3'];
-$skillLevel4 = $_POST['skillLevel3'];
-$skill5 = $_POST['skill3'];
-$skillLevel5 = $_POST['skillLevel3'];
+$skill4 = $_POST['skill4'];
+$skillLevel4 = $_POST['skillLevel4'];
+$skill5 = $_POST['skill5'];
+$skillLevel5 = $_POST['skillLevel5'];
 
 
 $myfile = fopen("userFiles/index.html", "w") or die("Unable to open file!");
@@ -81,17 +81,14 @@ $txt = '<!DOCTYPE html>
             <h2 class="title">Projects</h2>
             <div id="projectContainer">
                 <div class="projectBox">
-                    <img class="projectImage" src="' . $projectImage1 . '" alt="Project 1 image">
                     <p class="projectTitle">' . $projectTitle1 . '</p>
                     <p class="projectDescription">' . $projectDescription1 . '</p>
                 </div>
                 <div class="projectBox">
-                    <img class="projectImage" src="' . $projectImage2 . '" alt="Project 2 image">
                     <p class="projectTitle">' . $projectTitle2 . '</p>
                     <p class="projectDescription">' . $projectDescription2 . '</p>
                 </div>
                 <div class="projectBox">
-                    <img class="projectImage" src="' . $projectImage3 . '" alt="Project 3 image">
                     <p class="projectTitle">' . $projectTitle3 . '</p>
                     <p class="projectDescription">' . $projectDescription3 . '</p>
                 </div>
@@ -167,7 +164,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url('/images/background1.jpeg') no-repeat center center / cover;
+    background: #4b4b8b;
 }
 
 #header h1 {

@@ -52,7 +52,7 @@ $txt = '<!DOCTYPE html>
       </nav>
       <div class="content">
         <h4>Hello, My Name Is</h4>
-        <h1>' . $firstName . $lastName . '</h1>
+        <h1>' . $firstName . ' ' . $lastName . '</h1>
         <h3>I\'m An App Developer</h3>
       </div>
     </div>
@@ -146,23 +146,6 @@ $txt = '<!DOCTYPE html>
         </div>
       </div>
     </section>
-
-    <!-- Contact Me Section -->
-    <div class="container" id="contact">
-
-        <div class="contact-box">
-          <div class="left"></div>
-          <div class="right">
-            <h2 id="contactH2">Contact Me</h2>
-            <input type="text" class="field" placeholder="Your Name">
-            <input type="email" class="field" placeholder="Your email">
-            <input type="text" class="field" placeholder="Phone Number">
-            <textarea class="field" placeholder="Message" ></textarea>
-            <button class="btn"> Send </button>
-          </div>
-        </div>
-
-    </div>
   </body>
 </html>
 ';
@@ -183,9 +166,7 @@ $txt = '* {
   .hero {
     height: 100vh;
     width: 100%;
-    background-image: url(/images/background3.gif);
-    background-size: cover;
-    background-position: center;
+    background: #242332;
   }
   nav {
     display: flex;
@@ -449,11 +430,7 @@ $txt = '* {
     right: 0;
     width: 100%;
     height: 100%;
-    background: url(/images/adult_bad_beard_blue_background_cap_facial_expression_facial_hair_fashion-1537223.jpg!d)
-      no-repeat center;
-    background-size: cover;
-    z-index: -1;
-    filter: blur(50px);
+    background: #c3073f;
   }
   
   .contact-box {
@@ -469,9 +446,7 @@ $txt = '* {
   
   .left {
     height: 100%;
-    background: url(/images/adult_bad_beard_blue_background_cap_facial_expression_facial_hair_fashion-1537223.jpg!d)
-      no-repeat center;
-    background-size: cover;
+    background: #c3073f;
   }
   
   .right {
