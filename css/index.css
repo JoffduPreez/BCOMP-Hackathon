@@ -123,6 +123,13 @@ body {
   transform: scale(2);
 }
 
+#test {
+    height: 100%;
+}
+#test img {
+    height: 110%;
+}
+
 .templateContent {
     display: flex;
     flex-direction: column;
