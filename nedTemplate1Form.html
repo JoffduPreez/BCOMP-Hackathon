@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dosis"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/nedTemplate1Form.css" />
+    <title>Template Information</title>
+  </head>
+  <body>
+    <header>
+      <a href="/">Back to different templates</a>
+      <p>Fill in the Information Bellow for Your Personal Website</p>
+      <div id="placeholder"></div>
+    </header>
+
+    <div id="container">
+      <form action="nedasTemplate1Download.php" method="post" id="form">
+        <div id="personalInformation" class="formSection">
+          <h2 class="sectionTitle">Personal Information</h2>
+          <label for="firstName">First Name</label>
+          <input type="text" id="firstName" name="firstName" />
+          <label for="lastName">Last Name</label>
+          <input type="text" id="lastName" name="lastName" />
+          <label for="websiteName">Website Name</label>
+          <input type="text" id="websiteName" name="websiteName" />
+          <label for="personalDescription">Description of Yourself</label>
+          <textarea
+            name="personalDescription"
+            id="personalDescription"
+          ></textarea>
+          <label for="personImage">Submit A Picture</label>
+          <input type="file" id="personImage" name="personImage" />
+        </div>
+
+        <div id="projectInformation" class="formSection">
+          <h2 class="sectionTitle">Experience Information</h2>
+          <label for="projectTitle1">Experience 1 Title</label>
+          <input type="text" id="projectTitle1" name="projectTitle1" />
+          <label for="projectDescription1">Experience 1 Description</label>
+          <textarea
+            name="projectDescription1"
+            id="projectDescription1"
+          ></textarea>
+          <label for="projectTitle2">Experience 2 Title</label>
+          <input type="text" id="projectTitle2" name="projectTitle2" />
+          <label for="projectDescription2">Experience 2 Description</label>
+          <textarea
+            name="projectDescription2"
+            id="projectDescription2"
+          ></textarea>
+          <label for="projectTitle3">Experience 3 Title</label>
+          <input type="text" id="projectTitle3" name="projectTitle3" />
+          <label for="projectDescription3">Experience 3 Description</label>
+          <textarea
+            name="projectDescription3"
+            id="projectDescription3"
+          ></textarea>
+        </div>
+
+        <div id="topSkills" class="formSection">
+          <h2 class="sectionTitle">Top Skills</h2>
+          <label for="skill1">First Skill</label>
+          <input type="text" id="skill1" name="skill1" />
+          <label for="skillDesc1">First Skill Description</label>
+          <input type="text" id="skillDesc1" name="skillDesc1" />
+          <label for="skill2">Second Skill</label>
+          <input type="text" id="skill2" name="skill2" />
+          <label for="skillDesc2">Second Skill Description</label>
+          <input type="text" id="skillDesc2" name="skillDesc2" />
+          <label for="skill3">Third Skill</label>
+          <input type="text" id="skill3" name="skill3" />
+          <label for="skillDesc3">Third Skill Description</label>
+          <input type="text" id="skillDesc3" name="skillDesc3" />
+        </div>
+      </form>
+      <button type="submit" form="form">Download Template</button>
+    </div>
+  </body>
+</html>

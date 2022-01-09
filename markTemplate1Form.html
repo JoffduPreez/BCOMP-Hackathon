@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" />
+    <link rel="stylesheet" href="css/markTemplate1Form.css">
+    <title>Template Information</title>
+</head>
+<body>
+    <header>
+        <a href="/">Back to different templates</a>
+        <p>Fill in the Information Bellow for Your Personal Website</p>
+        <div id="placeholder"></div>
+    </header>
+
+    <div id="container">
+        <form action="markTemplate1Download.php" method="post" id="form">
+            <div id="personalInformation" class="formSection">
+
+                <h2 class="sectionTitle">Personal Information</h2>
+
+                <label for="firstName">First Name</label>  
+                <input type="text" id="firstName" name="firstName">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName">
+                <label for="occupation">Occupation</label>
+                <input type="text" id="occupation" name="occupation">
+                <label for="linkedin">Linkedin Link</label>
+                <input type="text" id="linkedin" name="linkedin">
+                <label for="github">GitHub Link</label>
+                <input type="text" id="github" name="github">
+                <label for="instagram">Instagram Link</label>
+                <input type="text" id="instagram" name="instagram">
+
+                <label for="degree">Degree</label>
+                <input type="text" id="degree" name="degree">
+                <label for="school">School</label>
+                <input type="text" id="school" name="school">
+                <label for="educationDescription">Education Description</label>
+                <textarea name="educationDescription" id="educationDescription"></textarea>
+
+                <label for="personalDescription">Description of Yourself</label>
+                <textarea name="personalDescription" id="personalDescription"></textarea>
+                <label for="skillsDescription">Description of Skills</label>
+                <textarea name="skillsDescription" id="skillsDescription"></textarea>
+
+            </div>
+
+            <div id="projectInformation" class="formSection">
+
+                <h2 class="sectionTitle">Project Information</h2>
+
+                <label for="projectTitle1">Project 1 Title</label>
+                <input type="text" id="projectTitle1" name="projectTitle1">
+                <label for="projectDescription1">Project 1 Description</label>
+                <textarea name="projectDescription1" id="projectDescription1"></textarea>
+                <label for="projectImage1">Project 1 Image</label>
+                <input type="file" id="projectImage1" name="projectImage1">
+
+                <label for="projectTitle2">Project 2 Title</label>
+                <input type="text" id="projectTitle2" name="projectTitle2">
+                <label for="projectDescription2">Project 2 Description</label>
+                <textarea name="projectDescription2" id="projectDescription2"></textarea>
+                <label for="projectImage2">Project 2 Image</label>
+                <input type="file" id="projectImage2" name="projectImage2">
+
+                <label for="projectTitle3">Project 3 Title</label>
+                <input type="text" id="projectTitle3" name="projectTitle3">
+                <label for="projectDescription3">Project 3 Description</label>
+                <textarea name="projectDescription3" id="projectDescription3"></textarea>
+                <label for="projectImage3">Project 3 Image</label>
+                <input type="file" id="projectImage3" name="projectImage3">
+
+            </div>
+        </form>
+        <button type="submit" form="form">Download Template</button>
+    </div>
+</body>
+</html>

@@ -23,7 +23,7 @@ $projectDescription3 = $_POST['projectDescription3'];
 $projectImage3 = $_POST['projectImage3'];
 
 
-$myfile = fopen("index.html", "w") or die("Unable to open file!");
+$myfile = fopen("userFiles/index.html", "w") or die("Unable to open file!");
 $txt = '<!-- almost identical to the html from the first template-->
 
 <!DOCTYPE html>
@@ -148,7 +148,7 @@ fwrite($myfile, $txt);
 fclose($myfile);
 
 
-$myfile = fopen("main.css", "w") or die("Unable to open file!");
+$myfile = fopen("userFiles/main.css", "w") or die("Unable to open file!");
 $txt = "/* Global Styles */
 html {
     box-sizing: border-box;

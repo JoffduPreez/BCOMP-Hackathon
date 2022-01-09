@@ -19,7 +19,7 @@ $skillDesc2 = $_POST['skillDesc2'];
 $skill3 = $_POST['skill3'];
 $skillDesc3 = $_POST['skillDesc3'];
 
-$myfile = fopen("index.html", "w") or die("Unable to open file!");
+$myfile = fopen("userFiles/index.html", "w") or die("Unable to open file!");
 $txt = '<!DOCTYPE html>
 <html lang="en">
   <head>
@@ -171,7 +171,7 @@ fwrite($myfile, $txt);
 fclose($myfile);
 
 
-$myfile = fopen("main.css", "w") or die("Unable to open file!");
+$myfile = fopen("userFiles/main.css", "w") or die("Unable to open file!");
 $txt = '* {
     scroll-behavior: smooth;
     padding: 0px;
