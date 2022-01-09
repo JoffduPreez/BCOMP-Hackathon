@@ -1,0 +1,21 @@
+What needs to get done:
+    1. Rename files:
+        - Each template will be named “creatorTemplate#.html”. For example, “JoffreTemplate1.html”
+        - Each template style sheet will be named “creatorTemplate#.css”. For example,      “joffreTemplate1.css”
+        - Each template will have its own form. "joffreTemplate1Form.html"
+    2. Link homepage preview links to the correct template previews
+    3. Link homepage “select template” links to the correct template forms
+    4. Once everyone has finished their form, add the submit button for that form. Each form will submit to a different PHP file.
+    5. For each template, there will be one PHP file that downloads the html and the css for that template
+    6. How to get an image from a form
+    7. Add screenshots to homepage
+    8. Test every template, make sure they html connects to the css
+    9. Make my second form
+    10. Fix form css
+    11. add an image to marks form
+    12. check for any images in the css 
+
+
+
+Make download files for mark and for griffin:
+i need there html, css, and there form

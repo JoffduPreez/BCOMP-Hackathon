@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" />
+    <link rel="stylesheet" href="css/joffreTemplate1Form.css">
+    <title>Template Information</title>
+</head>
+<body>
+    <header>
+        <a href="/">Back to different templates</a>
+        <p>Fill in the Information Bellow for Your Personal Website</p>
+        <div id="placeholder"></div>
+    </header>
+
+    <div id="container">
+        <form action="joffreTemplate1Download.php" method="post">
+            <div id="personalInformation" class="formSection">
+                <h2 class="sectionTitle">Personal Information</h2>
+                <label for="firstName">First Name</label>  
+                <input type="text" id="firstName" name="firstName">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName">
+                <label for="occupation">Occupation</label>
+                <input type="text" id="occupation" name="occupation">
+                <label for="linkedin">Linkedin Link</label>
+                <input type="text" id="linkedin" name="linkedin">
+                <label for="facebook">Facebook Link</label>
+                <input type="text" id="facebook" name="facebook">
+                <label for="instagram">Instagram Link</label>
+                <input type="text" id="instagram" name="instagram">
+                <label for="github">GitHub Link</label>
+                <input type="text" id="github" name="github">
+                <label for="personalDescription">Description of Yourself</label>
+                <textarea name="personalDescription" id="personalDescription"></textarea>
+            </div>
+
+
+            <div id="projectInformation" class="formSection">
+                <h2 class="sectionTitle">Project Information</h2>
+                <label for="projectTitle1">Project 1 Title</label>
+                <input type="text" id="projectTitle1" name="projectTitle1">
+                <label for="projectDescription1">Project 1 Description</label>
+                <textarea name="projectDescription1" id="projectDescription1"></textarea>
+                <label for="projectImage1">Project 1 Image</label>
+                <input type="file" id="projectImage1" name="projectImage1">
+                <label for="projectTitle2">Project 2 Title</label>
+                <input type="text" id="projectTitle2" name="projectTitle2">
+                <label for="projectDescription2">Project 2 Description</label>
+                <textarea name="projectDescription2" id="projectDescription2"></textarea>
+                <label for="projectImage2">Project 2 Image</label>
+                <input type="file" id="projectImage2" name="projectImage2">
+                <label for="projectTitle3">Project 3 Title</label>
+                <input type="text" id="projectTitle3" name="projectTitle3">
+                <label for="projectDescription3">Project 3 Description</label>
+                <textarea name="projectDescription3" id="projectDescription3"></textarea>
+                <label for="projectImage3">Project 3 Image</label>
+                <input type="file" id="projectImage3" name="projectImage3">
+            </div>
+
+            <div id="topSkills" class="formSection">
+                <h2 class="sectionTitle">Top Skills</h2>
+                <label for="skill1">First Skill</label>
+                <input type="text" id="skill1" name="skill1">
+                <label for="skillLevel1">First Skill Expertise level</label>
+                <input type="range" id="skillLevel1" name="skillLevel1" min="0" max="10">            
+                <label for="skill2">Second Skill</label>
+                <input type="text" id="skill2" name="skill2">
+                <label for="skillLevel2">Second Skill Expertise level</label>
+                <input type="range" id="skillLevel2" name="skillLevel2" min="0" max="10">
+                <label for="skill3">Third Skill</label>
+                <input type="text" id="skill3" name="skill3">
+                <label for="skillLevel3">Third Skill Expertise level</label>
+                <input type="range" id="skillLevel3" name="skillLevel3" min="0" max="10">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
