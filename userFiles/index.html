@@ -4,112 +4,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-
-    <title>Template</title>
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet" />
     <link rel="stylesheet" href="main.css">
+    <title>Portfolio Template</title>
 </head>
 <body>
-    <!-- Nav Bar -->
-    <header>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Projects">Projects</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
+    <header id="header">
+        <h1>jjj </h1>
+        <p id="personalOccupation"></p>
+        <div id="socialLinks">
+            <a href="">
+                <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-facebook-square fa-2x"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="">
+                <i class="fab fa-github-square fa-2x"></i>
+            </a>
+        </div>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#resume">Resume</a>
+        </nav>
     </header>
 
-    <!-- Home -->
-    <section id="Home">
-        <div class="intro-text">
-            <h1>marktest2 </h1>
-            <h3></h3>
-        </div>
-        <img src="images/smilingGuy3.jpg" alt="profile image">
-    </section>
-
-    <!-- About -->
-    <section id="About" class="fill-width">
-        <div class="about-grid">
-            <div>
-                <h1 class="title-coloring">About Me</h1>
-                <p>
-                    
-                </p>
+    <div id="container">
+        <section id="about">
+            <div class="sectionContainer">
+                <h2 class="title">About Me</h2>
+                <p class="basicText"></p>
             </div>
-            
-            <img src="images\smilingGuy3.jpg" alt="profile image">
+        </section>
     
-            <div>
-                <h1 class="title-coloring">Education</h1>
-                <h4> <br> </h4>
-                <p>
-                    
-                </p>
+        <section id="projects">
+            <h2 class="title">Projects</h2>
+            <div id="projectContainer">
+                <div class="projectBox">
+                    <img class="projectImage" src="" alt="Project 1 image">
+                    <p class="projectTitle"></p>
+                    <p class="projectDescription"></p>
+                </div>
+                <div class="projectBox">
+                    <img class="projectImage" src="" alt="Project 2 image">
+                    <p class="projectTitle"></p>
+                    <p class="projectDescription"></p>
+                </div>
+                <div class="projectBox">
+                    <img class="projectImage" src="" alt="Project 3 image">
+                    <p class="projectTitle"></p>
+                    <p class="projectDescription"></p>
+                </div>
             </div>
-
-            <div>
-                <h1 class="title-coloring">Skills</h1>
-
-                <p>
-                    
-                </p>
-            </div>
-        </div>
-        <div id="Projects"></div>
-    </section>
-
+        </section>
     
-    <section>   <!-- Projects-->
-
-        <h1 id="Project-Title">Projects</h1>
-
-        <div class="fill-width">
-            <section class="project">
-                <img src="" alt="project image">
-
-                <div class="Project-Description">
-                    <h3 class="title-coloring"></h3>
-                    <p></p>
+        <section id="skills">
+            <div class="sectionContainer">
+                <h2 class="title">Skills</h2>
+                
+                <div class="skillBox">
+                    <p class="basicText"></p>
+                    <div class="skillBar">
+                       <div class="completeSkill1"></div>
+                    </div>
                 </div>
-            </section>
-        </div>
-
-        <div class="fill-width">
-            <section class="project">
-                <img src="" alt="project image">
-
-                <div class="Project-Description">
-                    <h3 class="title-coloring"></h3>
-                    <p></p>
+                <div class="skillBox">
+                    <p class="basicText"></p>
+                    <div class="skillBar">
+                       <div class="completeSkill2"></div>
+                    </div>
                 </div>
-            </section>
-        </div>
-
-        <div class="fill-width">
-            <section class="project">
-                <img src="" alt="project image">
-
-                <div class="Project-Description">
-                    <h3 class="title-coloring"></h3>
-                    <p></p>
+                <div class="skillBox">
+                    <p class="basicText"></p>
+                    <div class="skillBar">
+                       <div class="completeSkill3"></div>
+                    </div>
                 </div>
-            </section>
-        </div>
-    </section>
-
-    <!-- Contact Me -->
-    <footer id="Contact" class="fill-width">
-            <div class="Contact-List">
-                <a href="">Linkedin</a>
-                <a href="">Instagram</a>
-                <a href="">Github</a>
+                <div class="skillBox">
+                    <p class="basicText"></p>
+                    <div class="skillBar">
+                       <div class="completeSkill4"></div>
+                    </div>
+                </div>
+                <div class="skillBox">
+                    <p class="basicText"></p>
+                    <div class="skillBar">
+                       <div class="completeSkill5"></div>
+                    </div>
+                </div>
             </div>
-    </footer>
+    
+        </section>
+    </div>
+    
 </body>
 </html>

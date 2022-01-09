@@ -549,6 +549,6 @@ $txt = '* {
 fwrite($myfile, $txt);
 fclose($myfile);
 
-redirect('/');
+redirect('/download.html');
 
 ?>

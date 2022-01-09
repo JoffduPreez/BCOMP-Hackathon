@@ -10,3 +10,5 @@ function redirect($path) {
     header("Location: $protocol://" . $_SERVER['HTTP_HOST'] . $path);
     exit;
 }
+
+?>
