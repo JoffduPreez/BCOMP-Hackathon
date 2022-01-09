@@ -14,8 +14,3 @@ What needs to get done:
     10. Fix form css
     11. add an image to marks form
     12. check for any images in the css 
-
-
-
-Make download files for mark and for griffin:
-i need there html, css, and there form
