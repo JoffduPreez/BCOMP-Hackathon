@@ -2,14 +2,14 @@
   scroll-behavior: smooth;
   padding: 0px;
   margin: 0px;
-  font-family: Lato, sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   box-sizing: border-box;
 }
 
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url(/images/1.png);
+  background-image: url(/images/background3.gif);
   background-size: cover;
   background-position: center;
 }
@@ -24,13 +24,14 @@ nav {
 .logo {
   color: white;
   font-size: 35px;
+  font-family: "Lato", cursive;
   letter-spacing: 1px;
   cursor: pointer;
 }
 
 span {
-  color: #5ab9ea;
-  font-family: "Josefin Sans", sans-serif;
+  color: #950740;
+  font-family: "Lato", sans-serif;
 }
 
 nav ul li {
@@ -46,7 +47,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #5ab9ea;
+  color: #c3073f;
   transition: 0.4s;
 }
 
@@ -70,19 +71,20 @@ nav ul li a:hover {
 }
 
 h1 {
-  font-family: "Josefin Sans", sans-serif;
-  color: #5680e9;
+  font-family: "Lato", sans-serif;
+  color: #c3073f;
   margin: 10px 0px 10px;
   font-size: 75px;
-  text-align: center;
+  text-align: right;
 }
+
 h3 {
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
-  color: #c1c8e4;
+  color: white;
   font-size: 25px;
   margin-bottom: 50px;
-  text-align: center;
+  text-align: right;
 }
 
 h4 {
@@ -91,7 +93,7 @@ h4 {
   letter-spacing: 2px;
   font-weight: bold;
   font-size: 25px;
-  text-align: center;
+  text-align: right;
 }
 
 .right {
@@ -103,7 +105,7 @@ h4 {
 .About {
   width: 100%;
   padding: 100px 0px;
-  background-color: #f79e02;
+  background-color: #111111;
 }
 
 .About img {
@@ -125,14 +127,14 @@ h4 {
 }
 
 .AboutText h2 {
-  color: #5680e9;
+  color: #c3073f;
   font-size: 75px;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
 
 .AboutText h5 {
-  color: #8860d0;
+  color: #950740;
   letter-spacing: 2px;
   font-size: 25px;
   margin-bottom: 25px;
@@ -148,7 +150,7 @@ h4 {
 }
 
 .skills {
-  background: #5680e9;
+  background: #950740;
   width: 100%;
   height: 100vh;
   padding: 100px 0px;
@@ -186,24 +188,24 @@ h4 {
   display: block;
   text-align: center;
   margin: 25px 0px;
-  color: #8860d0;
+  color: #c3073f;
 }
 
 h5 {
-  color: #5680e9;
+  color: #950740;
   font-size: 23px;
   margin-bottom: 15px;
 }
 
 .skillEx {
-  color: #5ab9ea;
+  color: black;
   font-size: 16px;
   line-height: 23px;
   margin-bottom: 25px;
 }
 
 .Title {
-  color: #5680e9;
+  color: #c3073f;
   font-size: 75px;
   width: 1130px;
   margin: 30px auto;
@@ -213,18 +215,18 @@ h5 {
 }
 
 .projects {
-  background: #f79e02;
+  background: black;
   width: 100%;
   height: 100vh;
 }
 
 .projects .card {
-  background: #5ab9ea;
+  background: white;
   margin: 25px;
 }
 
 .projects .card p {
-  color: white;
+  color: #950740;
   margin-top: 15%;
   font-size: 18px;
 }
@@ -242,13 +244,13 @@ h5 {
 
 .projects .card a:hover {
   font-size: 32px;
-  color: #f79e02;
+  color: #c3073f;
   transition: 0.4s;
 }
 
 .projects .card a,
 a:visited {
-  color: white;
+  color: black;
 }
 
 body .container {
