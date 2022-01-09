@@ -123,10 +123,10 @@ body {
   transform: scale(2);
 }
 
-#test {
+#adjustHeight {
     height: 100%;
 }
-#test img {
+#adjustHeight img {
     height: 110%;
 }
 

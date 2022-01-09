@@ -31,3 +31,19 @@ body {
     cursor: pointer;
     text-decoration: underline;
 }
+
+.btn-2 {
+    width: 11vw;
+    text-align: center;
+    padding: 5vh 0;
+    background-color: #552cbf;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    margin: 2vh;
+}
+
+.btn-2:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
