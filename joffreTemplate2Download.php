@@ -29,7 +29,7 @@ $skill5 = $_POST['skill3'];
 $skillLevel5 = $_POST['skillLevel3'];
 
 
-$myfile = fopen("index.html", "w") or die("Unable to open file!");
+$myfile = fopen("userFiles/index.html", "w") or die("Unable to open file!");
 $txt = '<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -140,7 +140,7 @@ fwrite($myfile, $txt);
 fclose($myfile);
 
 
-$myfile = fopen("main.css", "w") or die("Unable to open file!");
+$myfile = fopen("userFiles/main.css", "w") or die("Unable to open file!");
 $txt = "/* Container and main styles */
 * {
     margin: 0;

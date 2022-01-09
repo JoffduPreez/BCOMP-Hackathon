@@ -18,7 +18,7 @@
     </header>
 
     <div id="container">
-        <form action="joffreTemplate1Download.php" method="post">
+        <form action="joffreTemplate1Download.php" method="post" id="form">
             <div id="personalInformation" class="formSection">
                 <h2 class="sectionTitle">Personal Information</h2>
                 <label for="firstName">First Name</label>  
@@ -78,6 +78,8 @@
                 <input type="range" id="skillLevel3" name="skillLevel3" min="0" max="10">
             </div>
         </form>
+
+        <button type="submit" form="form">Download Template</button>
     </div>
 </body>
 </html>
