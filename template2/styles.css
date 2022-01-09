@@ -6,6 +6,12 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+h1, h2, h3 {
+    font-family: 'PT Sans', sans-serif;
+}
+p {
+    font-family: 'Montserrat', sans-serif;
+}
 *, *:before, *:after {
     box-sizing: inherit;
 }
@@ -90,7 +96,12 @@ a img:hover {
 
 .about-subhead {
     text-align: center;
+    padding-bottom: 7px;
     margin: 0;
+}
+
+.skills-title {
+    padding-bottom: 55px;
 }
 
 /* Project */
@@ -165,9 +176,6 @@ a img:hover {
 }
 
 @media screen and (max-width: 600px) {
-    ul {
-        list-style: none;
-    }
     .Contact-List {
         position: absolute;
         right: 100px;
@@ -201,7 +209,7 @@ a img:hover {
     }
 
     #Profile-Image {
-        margin: 300px auto;
+        margin: 5% auto;
     }
 }
 
